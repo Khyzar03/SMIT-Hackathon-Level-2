@@ -25,17 +25,13 @@ Python(Pandas, Streamlit, plotly), OpenWeatherMap API
 Make sure you have Python 3.8 or higher and create a virtual environment. Then install the required packages:
 pip install -r requirements.txt
 
-## 2. Set Up the Environment Variables
 
-Create a .env file in the root directory and add your API key:
-WEATHER_API_KEY=your_api_key_here (You can get a free API key from: https://openweathermap.org/api)
-
-## 3. Run the Application
+## 2. Run the Application
 
 Execute the following command to start the Streamlit weather predictor:
 streamlit run main.py
 
-## 4. Input Parameters
+## 3. Input Parameters
 
 When the app loads in your browser, you will see three required inputs:
 
@@ -43,7 +39,7 @@ City Name: Enter the name of any global city (e.g., London, Karachi).
 Date: Select any date within the forecast range supported by the API.
 Time: Select a time to get weather details closest to that hour.
 
-## 5. View Forecast Results
+## 4. View Forecast Results
 
 After submitting inputs, the app will display:
 
